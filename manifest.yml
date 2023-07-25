@@ -1,0 +1,7 @@
+---
+applications:
+- name: helloworld1
+  host: helloworld1
+  buildpack: nodejs_buildpack
+  memory: 128MB
+  command: node server
